@@ -4,7 +4,7 @@ class ColorsController < ApplicationController
   supports_format :rgb
   supports_format :hsl
 
-  # When you with to include a new format in the future, you would just need to add the supports_format line for that format.
+  # When you wish to include a new format in the future, you would just need to add the supports_format line for that format.
   # For example, if you added BRGB support:
   # supports_format :brgb
   # Make sure to add the format class to extend the Color::Base class.
